@@ -31,3 +31,12 @@ Things you may want to cover:
 
   config/environments/development.rb
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+
+Added
+-Pages Folder
+---Home
+---ApartmentIndex
+
+Assets Folder
+-Components Folder
+---Header

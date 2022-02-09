@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import Header from "./compnents/Header";
+import Home from "./pages/Home";
+import ApartmentIndex from "./pages/ApartmentIndex";
 
 class App extends Component {
   render() {
@@ -16,7 +19,9 @@ class App extends Component {
     console.log("sign_out_route:", sign_out_route);
     return (
       <>
-        <h1>helloWorld</h1>
+        <Header />
+        <Home />
+        <ApartmentIndex />
       </>
     );
   }
